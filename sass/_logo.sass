@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700i,900i&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:600,700&display=swap&subset=cyrillic-ext')
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext')
+
+*
+	box-sizing: border-box
+
+html, body
+	width: 100%
+	height: 100%
+	color: #fff
+	display: flex
+	justify-content: center
+	align-items: center
+
+
+.wrap
+	width: 700px
+	height: 700px
+	border: 25px solid #e21619	
+	margin: 0 auto
+	position: relative
+	&-patch
+		display: flex
+		justify-content: center
+		width: 666px
+		height: 662px
+		position: absolute
+		background-color: #000000
+		top: -6px
+		left: -8px
+		border: 20px solid #000
+		border-radius: 25px 25px 25px 25px
+	&-patch2
+		position: absolute
+		border: 30px solid #e21619
+		top: 216px
+		left: 320px
+		border-radius: 100% 
+		background-color: #e21619		
+		z-index: 5
+	&-patch3
+		position: absolute
+		border: 32px solid #e21619
+		top: 206px
+		left: 277px
+		border-radius: 50% 0 0 0
+		background-color: #e21619		
+		z-index: 7
+		transform: rotate(30deg)
+	&-patch4
+		width: 100px
+		height: 100px
+		position: absolute
+		border: 10px solid #fff
+		top: 171px
+		left: 293px
+		border-radius: 100% 1% 80%
+		background: linear-gradient(135deg, #28a53d 50%, #98c022 50%)
+		z-index: 7
+		transform: rotate(27deg)
+	&-patch5:after
+		content: ""
+		position: absolute
+		height: 36px
+		width: 225px
+		border: 10px solid transparent
+		border-bottom-color: #e51719
+		top: 455px
+		left: 9%
+		border-radius: 50%
+		transform: rotate(177deg)
+		z-index: 8888
+	&-patch6:after
+		content: ""
+		position: absolute
+		height: 12px
+		width: 17px
+		background-color: #000
+		top: 466px
+		left: 120px
+		border-radius: 0%
+		transform: rotate(177deg)
+		z-index: 777
+	&-patch7:after	
+		content: ""
+		position: absolute
+		height: 12px
+		width: 17px
+		background-color: #fff
+		top: 0
+		left: 0
+		border-radius: 0%
+		transform: rotate(177deg)
+		z-index: 777	
+.logo
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-direction: column
+		position: relative
+		&__img
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 250px
+			height: 250px
+			border: 25px solid #fff
+			border-radius: 50%
+			background-color: #e21619	
+			margin-bottom: 10px
+		&__text
+			text-align: center
+			font-family: 'Merriweather'	
+			padding-bottom: 50px
+			font-size: 230px
+			font-weight: 900
+		&__text-small
+			position: absolute
+			font-family: sans-serif
+			display: inline-block
+			color: #aabd6b
+			font-size: 19px
+			font-weight: 600
+			text-transform: uppercase
+			margin-left: 200px
+			letter-spacing: 7px
+			bottom: 147px
+			left: -11px
+		&__text-main
+			position: absolute
+			font-family: Montserrat Alternates
+			display: inline-block
+			color: #dc1917
+			font-weight: 700
+			font-size: 64px
+			margin-left: 200px
+			letter-spacing: 5px
+			margin-right: 200px
+			bottom: 97px
+			left: -285px
